@@ -1,18 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
 
-nav {
-    background-color: #afafaf;
-    font-family: "Special Elite",sans-serif;
-}
 
-.nav-item {
-    margin: 20px 20px 20px 20px;
-}
 
-.logo {
-    line-height: 200px;
-}
-
-.col-md-3 {
+footer {
     background-color: red;
+    color: black;
+    min-height: 150px;
 }
