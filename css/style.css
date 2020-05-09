@@ -1,9 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
 
+/*----------------------------------------------Header/Navbar*/
 
+.bg-nav {
+    background-color: black;
+    height: 100px;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: "Special Elite", sans-serif;
+    color: red;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+.logo:hover {
+    font-family: "Special Elite", sans-serif;
+    color: red;
+}
+
+.nav-link {
+    font-family: "Special Elite", sans-serif;
+    color: red;
+    font-size: 120%;
+}
+
+.nav-link:hover {
+    color: red;
+    text-decoration: underline;
+}
+.current {
+    text-decoration: underline;
+}
+
+/*----------------------------------------------Article*/
+
+.btn-danger {
+    color: black;
+    background-color: red;
+}
+
+/*----------------------------------------------Footer*/
 
 footer {
-    background-color: red;
-    color: black;
+    background-color: black;
+    color: #afafaf;
     min-height: 150px;
+}
+
+footer h5 {
+    text-decoration: underline;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: black;
+    background-color: red;
+}
+
+.social-links li a i:hover {
+    background-color: darkred;
 }
