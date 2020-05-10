@@ -39,6 +39,10 @@
 
 /*----------------------------------------------Article*/
 
+section {
+    background-color: #afafaf;
+}
+
 .btn-danger {
     color: black;
     background-color: red;
@@ -46,6 +50,10 @@
 
 .carousel-inner {
     max-height: 500px;
+}
+
+article hr {
+    width: 50%
 }
 
 /*----------------------------------------------Footer*/
@@ -85,3 +93,5 @@ footer hr {
 .social-links li a i:hover {
     background-color: darkred;
 }
+
+/*----------------------------------------------General Styles*/
