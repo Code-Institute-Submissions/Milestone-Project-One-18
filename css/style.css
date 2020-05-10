@@ -6,8 +6,8 @@
     background-color: black;
 }
 
-.navbar-toggler-icon {
-    background-color: red;
+.fas fa-bars {
+
 }
 
 .logo {
@@ -45,7 +45,7 @@
 }
 
 .carousel-inner {
-    max-height: 400px;
+    max-height: 500px;
 }
 
 /*----------------------------------------------Footer*/
@@ -58,6 +58,16 @@ footer {
 
 footer h5 {
     text-decoration: underline;
+}
+
+footer hr {
+    background-color: #afafaf;
+    width: 50%
+}
+
+.open-times ul {
+    list-style: none;
+    padding: 0;
 }
 
 .social-links li a i {
