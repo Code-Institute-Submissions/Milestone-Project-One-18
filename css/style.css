@@ -2,14 +2,6 @@
 
 /*----------------------------------------------Header/Navbar*/
 
-.bg-nav {
-    background-color: black;
-}
-
-.fas fa-bars {
-
-}
-
 .logo {
     text-decoration: none;
     font-family: "Special Elite", sans-serif;
@@ -33,23 +25,27 @@
     color: red;
     text-decoration: underline;
 }
+
+.navbar-nav .nav-item .nav-link {
+    font-family: "Special Elite", sans-serif;
+    color: red;
+    font-size: 120%;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
 .current {
     text-decoration: underline;
 }
 
 /*----------------------------------------------Article*/
 
-section {
-    background-color: #afafaf;
-}
-
 .btn-danger {
     color: black;
     background-color: red;
-}
-
-.carousel-inner {
-    max-height: 500px;
 }
 
 article hr {
