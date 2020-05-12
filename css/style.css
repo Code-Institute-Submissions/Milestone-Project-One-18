@@ -37,6 +37,16 @@
     text-decoration: underline;
 }
 
+.nav-link-btn {
+    font-family: "Special Elite", sans-serif;
+    color: red;
+    font-size: 120%;
+}
+
+.nav-link-btn:hover {
+    text-decoration: underline;
+}
+
 .current {
     text-decoration: underline;
 }
@@ -44,8 +54,13 @@
 /*----------------------------------------------Article*/
 
 .btn-danger {
+    font-family: "Special Elite", sans-serif;
     color: black;
-    background-color: red;
+    font-size: 120%;
+}
+
+.btn-danger:hover {
+    text-decoration: underline;
 }
 
 article hr {
@@ -61,6 +76,7 @@ footer {
 }
 
 footer h5 {
+    font-family: "Special Elite", sans-serif;
     text-decoration: underline;
 }
 
