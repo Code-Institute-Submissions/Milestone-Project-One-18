@@ -24,7 +24,7 @@
             <div class="navbar-collapse collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mr-3"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item mr-3"><a href="#" class="nav-link">Link</a></li>
+                <li class="nav-item mr-3"><a href="classes.html" class="nav-link">What We Offer</a></li>
                 <li class="nav-item mr-3 current"><a href="contact.html" class="nav-link">Contact Us</a></li>
                 <li class="nav-item mr-3 d-block d-md-none"><a href="login" class="nav-link">Sign Up Now!</a></li>
             </ul>
@@ -39,8 +39,43 @@
 
     <article>
 
-    <section>
-        insert some stuff
+    <section class="container">
+        <h3 class="text-center">Questions? Contact Us!</h3>
+        <form>
+        <!--Form sections-->
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" class="form-control" id="name" value="Please enter full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" value="example@example.co.uk" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="number">Contact Number</label>
+                <input type="tel" class="form-control" id="number" value="Enter phone number">
+            </div>
+            <div class="form-group">
+                <label for="query">Enter your query below and we'll get back to you!</label>
+                <input type="text" class="form-control" id="query" value="Enter your query">
+            </div>
+        <!--Radio buttons-->
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="emailcheckbox" value="email">
+                <label class="form-check-label" for="emailcheckbox">Email</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="phonecheckbox" value="phone">
+                <label class="form-check-label" for="phonecheckbox">Phone call</label>
+            </div>
+        <!--Check box-->
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="newsletter">
+                <label class="form-check-label" for="newsletter">Sign me up to the newsletter!</label>
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+        </form>
     </section>
 
     </article>
@@ -101,24 +136,46 @@
     </footer>
 
     <div class="modal" tabindex="-1" role="dialog" id="signupmodal">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Create an Account</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+            <form>
+                <!--Form sections-->
+            <div class="form-group">
+                <label for="accountname">Full Name</label>
+                <input type="text" class="form-control" id="accountname" value="Please enter full name">
+            </div>
+            <div class="form-group">
+                <label for="accountemail">Email</label>
+                <input type="email" class="form-control" id="accountemail" value="example@example.co.uk" aria-describedby="accountemailHelp">
+                <small id="accountemailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="accountnumber">Contact Number</label>
+                <input type="tel" class="form-control" id="accountnumber" value="Enter phone number">
+            </div>
+            <div class="form-group">
+                <label for="accountpassword">Password</label>
+                <input type="password" class="form-control" id="accountpassword" value="Enter Password">
+            </div>
+            <div class="form-group">
+                <label for="accountrepeatpassword">Repeat Password</label>
+                <input type="password" class="form-control" id="accountrepeatpassword" value="Repeat Password">
+            </div>
+            </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Submit</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

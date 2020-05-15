@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>HOME | Resilience</title>
+</head>
+<body>
+    <header>
+        <!--Navbar-->
+        <nav class="navbar bg-dark navbar-dark navbar-expand-md static-top">
+            <a href="" class="logo">Resilience</a>
+        <!--Navbar Navigation Options-->
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-3"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item mr-3 current"><a href="classes.html" class="nav-link">What We Offer</a></li>
+                <li class="nav-item mr-3"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                <li class="nav-item mr-3 d-block d-md-none"><a href="login" class="nav-link">Sign Up Now!</a></li>
+            </ul>
+            </div>
+        <!--Sign Up Button Navbar-->
+
+            <div class="d-none d-md-block">
+            <button type="button" class="btn btn-outline-danger nav-link-btn" data-toggle="modal" data-target="#signupmodal">Sign Up Now!</button>
+            </div>
+        </nav>
+    </header>
+
+    <article class="container text-center">
+
+    <section>
+        insert some stuff
+    </section>
+    <section>
+        <button class="btn btn-danger btn-lg btn-outline-danger contact-page-link"><a href="contact.html">Questions? Contact Us!</a></button>
+    </section>
+
+    </article>
+
+    <footer class="container-fluid">
+        <div class="row">
+        <!--Address first column-->
+        <div class="col-sm-4 text-center">
+            <h5>Address</h5>
+            <p> 52-48, Swinbrook Road,<br>Carterton,<br>OX18 1DX<br> Tel: 555-resilience</p>
+            <hr class="d-sm-none">
+        </div>
+        <!--Open times second column-->
+        <div class="col-sm-4 open-times text-center">
+            <h5>Open Times</h5>
+            <ul>
+                <li>Mon: 6am-10pm</li>
+                <li>Tue: 6am-10pm</li>
+                <li>Wed: 6am-10pm</li>
+                <li>Thurs: 6am-10pm</li>
+                <li>Fri: 6am-10pm</li>
+                <li>Sat: 8am-10pm</li>
+                <li>Sun: 8am-10pm</li>
+            </ul>
+            <hr class="d-sm-none">
+        </div>
+        <!--Social Links third column-->
+        <div class="col-sm-4 text-center">
+            <h5>Social</h5>
+            <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+        </div>
+    </footer>
+
+    <div class="modal" tabindex="-1" role="dialog" id="signupmodal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Create an Account</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+            <form>
+                <!--Form sections-->
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" class="form-control" id="name" value="Please enter full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" value="example@example.co.uk" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="number">Contact Number</label>
+                <input type="tel" class="form-control" id="number" value="Enter phone number">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" value="Enter Password">
+            </div>
+            <div class="form-group">
+                <label for="repeatpassword">Repeat Password</label>
+                <input type="password" class="form-control" id="repeatpassword" value="Repeat Password">
+            </div>
+            </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
