@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
 
+/*----------------------------------------------Background*/
+
+.image-bg {
+    background: url("../images/Gym_Dumbbells_Image.jpeg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.centre-page-style {
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
+/*.container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}*/
+
 /*----------------------------------------------Header/Navbar*/
 
 .logo {
@@ -67,12 +86,20 @@ article hr {
     width: 50%
 }
 
-.image-bg {
-    background: url("../images/Gym_Dumbbells_Image.jpeg") no-repeat bottom right fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.carousel-paragraph {
+    font-weight: 500;
+    color: red;
+    background-color: rgba(216, 216, 216, 0.8);
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.find-us-header {
+    font-weight: 900;
+    color: red;
+    background-color: black;
+    padding: 1px;
+    border-radius: 5px;
 }
 
 /*----------------------------------------------Classes Page*/
@@ -150,8 +177,20 @@ article hr {
 
 /*----------------------------------------------Contact Page*/
 
-.centre-page-style {
-    background-color: rgba(255, 255, 255, 0.3)
+.form-group label, .form-check-label {
+    font-weight: 500;
+    color: red;
+    background-color: rgba(216, 216, 216, 0.8);
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.contact-header {
+    font-weight: 900;
+    color: red;
+    background-color: black;
+    padding: 1px;
+    border-radius: 5px;
 }
 
 /*----------------------------------------------Footer*/
@@ -194,3 +233,9 @@ footer hr {
 }
 
 /*----------------------------------------------General Styles*/
+
+.modal-header {
+    font-weight: 900;
+    color: red;
+    background-color: black;
+}
