@@ -14,10 +14,9 @@
     background-color: rgba(255, 255, 255, 0.2)
 }
 
-/*.container {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}*/
+.container {
+    padding: 30px 30px 30px 30px;
+}
 
 /*----------------------------------------------Header/Navbar*/
 
@@ -80,6 +79,7 @@
 
 .btn-danger:hover {
     text-decoration: underline;
+    color: white;
 }
 
 article hr {
@@ -111,6 +111,42 @@ article hr {
 }
 
 .contact-page-link a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.class-timetable {
+    list-style: none;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    font-size: 125%
+}
+
+.pt-info {
+    padding: 10px 10px 10px 10px;
+}
+
+.bigger-bolder {
+    color: black;
+    font-weight: 500;
+    font-size: 125%
+}
+
+.workout-plans {
+    list-style: none;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    font-size: 125%
+}
+
+.plan-link {
+    text-decoration: none;
+    color: black;
+    font-size: 125%;
+}
+
+.plan-link:hover {
+    color: black;
     text-decoration: underline;
 }
 
@@ -185,13 +221,7 @@ article hr {
     border-radius: 5px;
 }
 
-.contact-header {
-    font-weight: 900;
-    color: red;
-    background-color: black;
-    padding: 1px;
-    border-radius: 5px;
-}
+
 
 /*----------------------------------------------Footer*/
 
@@ -217,12 +247,12 @@ footer hr {
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 45px;
+    height: 45px;
+    padding: 18px 0;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 20px;
+    line-height: 10px;
     text-align: center;
     color: black;
     background-color: red;
@@ -230,6 +260,7 @@ footer hr {
 
 .social-links li a i:hover {
     background-color: darkred;
+    color: white;
 }
 
 /*----------------------------------------------General Styles*/
@@ -238,4 +269,12 @@ footer hr {
     font-weight: 900;
     color: red;
     background-color: black;
+}
+
+.page-header {
+    font-weight: 900;
+    color: red;
+    background-color: black;
+    padding: 1px;
+    border-radius: 5px;
 }
