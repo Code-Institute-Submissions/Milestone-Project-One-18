@@ -221,7 +221,14 @@ article hr {
     border-radius: 5px;
 }
 
-
+.contact-method {
+    font-weight: 500;
+    color: red;
+    background-color: black;
+    padding: 1px;
+    border-radius: 5px;
+    width: 25%;
+}
 
 /*----------------------------------------------Footer*/
 
