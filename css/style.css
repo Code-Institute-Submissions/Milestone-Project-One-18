@@ -227,7 +227,7 @@ article hr {
     background-color: black;
     padding: 1px;
     border-radius: 5px;
-    width: 25%;
+    width: 250px;
 }
 
 /*----------------------------------------------Footer*/
@@ -279,7 +279,7 @@ footer hr {
 }
 
 .page-header {
-    font-weight: 900;
+    font-weight: 500;
     color: red;
     background-color: black;
     padding: 1px;
