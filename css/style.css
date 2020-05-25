@@ -11,7 +11,7 @@ article {
 }
 
 section {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /*.image-container {
@@ -70,7 +70,7 @@ section {
 
 .nav-link-btn {
     font-family: "Special Elite", sans-serif;
-    color: red;
+    color: black;
     font-size: 120%;
 }
 
@@ -96,21 +96,23 @@ section {
 }
 
 article hr {
-    width: 50%
+    width: 50%;
+    background: white;
 }
 
 .carousel-paragraph {
     font-weight: 500;
-    color: red;
-    background-color: rgba(216, 216, 216, 1);
+    color: white;
+    /*background-color: rgb(0, 0, 0);*/
     padding: 1px;
     border-radius: 5px;
 }
 
 .find-us-header {
-    font-weight: 900;
+    font-weight: 500;
+    font-family: "Special Elite", sans-serif;
     color: red;
-    background-color: black;
+    /*background-color: black;*/
     padding: 1px;
     border-radius: 5px;
 }
@@ -228,19 +230,21 @@ article hr {
 
 .form-group label, .form-check-label {
     font-weight: 500;
+    font-size: 110%;
     color: red;
-    background-color: rgba(216, 216, 216, 1);
+    /*background-color: rgba(216, 216, 216, 1);*/
     padding: 1px;
     border-radius: 5px;
 }
 
 .contact-method {
     font-weight: 500;
+    font-family: "Special Elite", sans-serif;
     color: red;
-    background-color: black;
+    /*background-color: black;*/
     padding: 1px;
     border-radius: 5px;
-    width: 250px;
+    width: 350px;
 }
 
 /*----------------------------------------------Footer*/
@@ -293,8 +297,9 @@ footer hr {
 
 .page-header {
     font-weight: 500;
+    font-family: "Special Elite", sans-serif;
     color: red;
-    background-color: black;
+    /*background-color: black;*/
     padding: 1px;
     border-radius: 5px;
 }
