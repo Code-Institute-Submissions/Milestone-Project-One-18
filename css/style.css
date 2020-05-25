@@ -14,19 +14,6 @@ section {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/*.image-container {
-    background-color: black;
-    position: relative;
-}
-
-.image-container img {
-    opacity: 0.3;
-}*/
-
-/*.centre-page-style {
-    background-color: rgba(255, 255, 255, 0.2)
-}*/
-
 .container {
     padding: 30px 30px 30px 30px;
 }
@@ -95,7 +82,7 @@ section {
     color: white;
 }
 
-article hr {
+.page-spacing-hr {
     width: 50%;
     background: white;
 }
@@ -103,32 +90,12 @@ article hr {
 .carousel-paragraph {
     font-weight: 500;
     color: white;
-    /*background-color: rgb(0, 0, 0);*/
     padding: 1px;
     border-radius: 5px;
-}
-
-.find-us-header {
-    font-weight: 500;
-    font-family: "Special Elite", sans-serif;
-    color: red;
-    /*background-color: black;*/
-    padding: 1px;
-    border-radius: 5px;
+    margin: 1rem 1rem;
 }
 
 /*----------------------------------------------Classes Page*/
-
-.contact-page-link a {
-    font-family: "Special Elite", sans-serif;
-    color: black;
-    font-size: 120%;
-}
-
-.contact-page-link a:hover {
-    text-decoration: underline;
-    color: white;
-}
 
 .class-timetable {
     list-style: none;
@@ -163,6 +130,11 @@ article hr {
 .plan-link:hover {
     color: black;
     text-decoration: underline;
+}
+
+.class-hr {
+    width: 50%;
+    background: black;
 }
 
 /*------------------------Flip box taken and adapted from w3schools.com*/
@@ -217,7 +189,7 @@ article hr {
 }
 
 .flip-box-back {
-    background-color: rgba(255, 0, 0, 1);
+    background-color: white;
     color: black;
     transform: rotateY(180deg);
 }
@@ -247,12 +219,19 @@ article hr {
     width: 350px;
 }
 
+textarea {
+    display: block;
+    max-width: 100%;
+    resize: both;
+}
+
 /*----------------------------------------------Footer*/
 
 footer {
     background-color: black;
     color: #afafaf;
     min-height: 150px;
+    padding: 10px 0px;
 }
 
 footer h5 {
@@ -265,9 +244,10 @@ footer hr {
     width: 50%
 }
 
-.open-times, .address-list {
+.open-times-table, .address-list {
     list-style: none;
     padding: 0;
+    margin: 0 auto;
 }
 
 .social-links li a i {
@@ -299,7 +279,11 @@ footer hr {
     font-weight: 500;
     font-family: "Special Elite", sans-serif;
     color: red;
-    /*background-color: black;*/
     padding: 1px;
     border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.btn-margin {
+    margin: 1rem 1rem;
 }

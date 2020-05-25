@@ -33,7 +33,7 @@
         <!--Sign Up Button Navbar-->
 
             <div class="d-none d-md-block">
-            <button type="button" class="btn btn-danger btn-outline-danger nav-link-btn" data-toggle="modal" data-target="#signupmodal">Sign Up Now!</button>
+                <a href="sign-up.html" class="btn btn-danger btn-outline-danger nav-link-btn">Sign Up Now!</a>
             </div>
         </nav>
     </header>
@@ -41,8 +41,8 @@
     <article>
         <!--Homepage Carousel Images-->
         <section class="text-center">
-        <div class="container centre-page-style">
-        <h2 class="page-header mb-4">Welcome!</h2>
+        <div class="container">
+        <h2 class="page-header">Welcome!</h2>
             <div id="homepage-bg-slides" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#homepage-bg-slides" data-slide-to="0" class="active"></li>
@@ -69,18 +69,18 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <p class="carousel-paragraph mt-4">Come and join <span class="logo"> Resilience</span> Gym and Health Club! 
+            <p class="carousel-paragraph">Come and join <span class="logo"> Resilience</span> Gym and Health Club! 
             Whether you like to train alone, as part of a class or 1-2-1 with one of our personal trainers, 
-            our state of the art Equipment, wide variety of classes and knowledgable staff, 
-            we will be sure to have what you are looking for! </p>
-            <button class="btn btn-danger btn-lg btn-outline-danger mt-2 mb-2" data-toggle="modal" data-target="#signupmodal">Sign Up Now!</button>
+            our state of the art equipment, wide variety of classes and knowledgable staff, 
+            we will be sure to have what you are looking for!</p>
+            <a href="sign-up.html" class="btn btn-danger btn-outline-danger btn-lg btn-margin">Sign Up Now!</a>
             
-            <hr>
+            <hr class="page-spacing-hr">
         <!--Homepage Where to Find Us-->
         
             <div>
-                <h3 class="find-us-header mt-4">Where to find us</h3>
-                <div class="mt-4">
+                <h3 class="page-header">Where to find us</h3>
+                <div>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d9875.26887399918!2d-1.6066697412647102!3d51.77294858695762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m3!3m2!1d51.771612999999995!2d-1.5995848!4m0!5e0!3m2!1sen!2suk!4v1589311050906!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
@@ -107,15 +107,36 @@
         <!--Open times second column-->
         <div class="col-sm-4 text-center">
             <h5>Open Times</h5>
-            <ul class="open-times">
-                <li>Mon: 6am-10pm</li>
-                <li>Tue: 6am-10pm</li>
-                <li>Wed: 6am-10pm</li>
-                <li>Thurs: 6am-10pm</li>
-                <li>Fri: 6am-10pm</li>
-                <li>Sat: 8am-10pm</li>
-                <li>Sun: 8am-10pm</li>
-            </ul>
+            <table class="open-times-table">
+                <tr>
+                    <td>Mon: </td>
+                    <td>6am-10pm</td>
+                </tr>
+                <tr>
+                    <td>Tue: </td>
+                    <td>6am-10pm</td>
+                </tr>
+                <tr>
+                    <td>Wed: </td>
+                    <td>6am-10pm</td>
+                </tr>
+                <tr>
+                    <td>Thu: </td>
+                    <td>6am-10pm</td>
+                </tr>
+                <tr>
+                    <td>Fri: </td>
+                    <td>6am-10pm</td>
+                </tr>
+                <tr>
+                    <td>Sat: </td>
+                    <td>8am-10pm</td>
+                </tr>
+                <tr>
+                    <td>Sun: </td>
+                    <td>8am-10pm</td>
+                </tr>
+            </table>
             <hr class="d-sm-none">
         </div>
         <!--Social Links third column-->
@@ -151,47 +172,7 @@
         </div>
     </footer>
 
-    <div class="modal" tabindex="-1" role="dialog" id="signupmodal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Create an Account</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                </div>
-                <div class="modal-body">
-            <form>
-                <!--Form sections-->
-            <div class="form-group">
-                <label for="name">Full Name</label>
-                <input type="text" class="form-control" id="name" value="Please enter full name">
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" value="example@example.co.uk" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-                <label for="number">Contact Number</label>
-                <input type="tel" class="form-control" id="number" value="Enter phone number">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" value="Enter Password">
-            </div>
-            <div class="form-group">
-                <label for="repeatpassword">Repeat Password</label>
-                <input type="password" class="form-control" id="repeatpassword" value="Repeat Password">
-            </div>
-            </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Submit</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>

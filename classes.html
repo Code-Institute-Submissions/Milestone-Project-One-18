@@ -33,18 +33,18 @@
         <!--Sign Up Button Navbar-->
 
             <div class="d-none d-md-block">
-            <button type="button" class="btn btn-danger btn-outline-danger nav-link-btn" data-toggle="modal" data-target="#signupmodal">Sign Up Now!</button>
+                <a href="sign-up.html" class="btn btn-danger btn-outline-danger nav-link-btn">Sign Up Now!</a>
             </div>
         </nav>
     </header>
 
-    <article class="image-bg">
+    <article>
 
     <section class="text-center">
-        <div class="container centre-page-style">
+        <div class="container">
         <!--Flip box taken and adapted from w3schools.com-->
         <div>
-        <h2 class="page-header text-center mb-4">What we can offer you!</h2>
+        <h2 class="page-header text-center">What we can offer you!</h2>
         <div class="flip-box">
             <div class="flip-box-inner">
                 <div class="flip-box-front flip-box-front1">
@@ -57,7 +57,7 @@
                             <li>Spin: 6am-7am</li>
                             <li>Body Pump: 7am-8am</li>
                             <li>Yoga: 8am-9am</li>
-                            <hr>
+                            <hr class="class-hr">
                             <li>Evening</li>
                             <li>Pilates: 4pm-5pm</li>
                             <li>Body Pump: 5pm-6pm</li>
@@ -93,11 +93,11 @@
                     <h4>Download our plans below</h4>
                         <ul class="workout-plans">
                             <li><a href="#" class="plan-link">Fat Loss</a></li>
-                            <hr>
+                            <hr class="class-hr">
                             <li><a href="#" class="plan-link">Muscle Building</a></li>
-                            <hr>
+                            <hr class="class-hr">
                             <li><a href="#" class="plan-link">Athlete Training</a></li>
-                            <hr>
+                            <hr class="class-hr">
                         </ul>
                     <p>Can't find what you're looking for? Click on the <span class="bigger-bolder"> Contacts Us</span> button 
                     below this banner to enquire and
@@ -107,10 +107,10 @@
         </div>
         </div>
         <!--Flip box taken and adapted from w3schools.com-->
-        <hr>
+        <hr class="page-spacing-hr">
 
             <div>
-                <button class="btn btn-danger btn-lg btn-outline-danger contact-page-link mt-2"><a href="contact.html">Questions? Contact Us!</a></button>
+                <a href="contact.html" class="btn btn-danger btn-lg btn-outline-danger btn-margin">Questions? Contact Us!</a>
             </div>
         </div>
     </section>
@@ -133,15 +133,36 @@
         <!--Open times second column-->
         <div class="col-sm-4 text-center">
             <h5>Open Times</h5>
-            <ul class="open-times">
-                <li>Mon: 6am-10pm</li>
-                <li>Tue: 6am-10pm</li>
-                <li>Wed: 6am-10pm</li>
-                <li>Thurs: 6am-10pm</li>
-                <li>Fri: 6am-10pm</li>
-                <li>Sat: 8am-10pm</li>
-                <li>Sun: 8am-10pm</li>
-            </ul>
+            <table class="open-times-table">
+                <tr>
+                    <td>Mon: </td>
+                    <td>6am-10pm</td>
+                </tr>
+                <tr>
+                    <td>Tue: </td>
+                    <td>6am-10pm</td>
+                </tr>
+                <tr>
+                    <td>Wed: </td>
+                    <td>6am-10pm</td>
+                </tr>
+                <tr>
+                    <td>Thu: </td>
+                    <td>6am-10pm</td>
+                </tr>
+                <tr>
+                    <td>Fri: </td>
+                    <td>6am-10pm</td>
+                </tr>
+                <tr>
+                    <td>Sat: </td>
+                    <td>8am-10pm</td>
+                </tr>
+                <tr>
+                    <td>Sun: </td>
+                    <td>8am-10pm</td>
+                </tr>
+            </table>
             <hr class="d-sm-none">
         </div>
         <!--Social Links third column-->
@@ -177,47 +198,7 @@
         </div>
     </footer>
 
-    <div class="modal" tabindex="-1" role="dialog" id="signupmodal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Create an Account</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                </div>
-                <div class="modal-body">
-            <form>
-                <!--Form sections-->
-            <div class="form-group">
-                <label for="name">Full Name</label>
-                <input type="text" class="form-control" id="name" value="Please enter full name">
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" value="example@example.co.uk" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-                <label for="number">Contact Number</label>
-                <input type="tel" class="form-control" id="number" value="Enter phone number">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" value="Enter Password">
-            </div>
-            <div class="form-group">
-                <label for="repeatpassword">Repeat Password</label>
-                <input type="password" class="form-control" id="repeatpassword" value="Repeat Password">
-            </div>
-            </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Submit</button>
-                </div>
-            </div>
-        </div>
-    </div>    
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
