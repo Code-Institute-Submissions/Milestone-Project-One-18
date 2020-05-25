@@ -2,17 +2,30 @@
 
 /*----------------------------------------------Background*/
 
-.image-bg {
-    background: url("../images/Gym_Dumbbells_Image.jpeg") no-repeat bottom right fixed; 
+article {
+    background: url("../images/Gym_Dumbbells_Image.jpeg") no-repeat center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-.centre-page-style {
-    background-color: rgba(255, 255, 255, 0.2)
+section {
+    background-color: rgba(0, 0, 0, 0.7);
 }
+
+/*.image-container {
+    background-color: black;
+    position: relative;
+}
+
+.image-container img {
+    opacity: 0.3;
+}*/
+
+/*.centre-page-style {
+    background-color: rgba(255, 255, 255, 0.2)
+}*/
 
 .container {
     padding: 30px 30px 30px 30px;
