@@ -89,7 +89,7 @@ article hr {
 .carousel-paragraph {
     font-weight: 500;
     color: red;
-    background-color: rgba(216, 216, 216, 0.8);
+    background-color: rgba(216, 216, 216, 1);
     padding: 1px;
     border-radius: 5px;
 }
@@ -202,13 +202,13 @@ article hr {
 }
 
 .flip-box-back {
-    background-color: rgba(255, 0, 0, 0.7);
+    background-color: rgba(255, 0, 0, 1);
     color: black;
     transform: rotateY(180deg);
 }
 
 .flip-box-front h2 {
-    background-color: rgba(255, 0, 0, 0.3);
+    background-color: white;
 }
 
 /*----------------------------------------------Contact Page*/
@@ -216,7 +216,7 @@ article hr {
 .form-group label, .form-check-label {
     font-weight: 500;
     color: red;
-    background-color: rgba(216, 216, 216, 0.8);
+    background-color: rgba(216, 216, 216, 1);
     padding: 1px;
     border-radius: 5px;
 }
@@ -248,7 +248,7 @@ footer hr {
     width: 50%
 }
 
-.open-times ul {
+.open-times, .address-list {
     list-style: none;
     padding: 0;
 }
