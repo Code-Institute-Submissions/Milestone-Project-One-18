@@ -85,6 +85,8 @@ section {
 .page-spacing-hr {
     width: 50%;
     background: white;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .carousel-paragraph {
@@ -93,6 +95,18 @@ section {
     padding: 1px;
     border-radius: 5px;
     margin: 1rem 1rem;
+}
+
+/*----------------------------------------------About Us*/
+
+.gallery-image {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-image img {
+    margin: 5px 5px 5px 5px;
 }
 
 /*----------------------------------------------Classes Page*/
