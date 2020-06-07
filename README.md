@@ -18,16 +18,35 @@ The Resilience Website has been deployed to [the authors github page](https://gi
 
 ## Wireframes
 
-Access wireframes.cc wireframes from the links below
+Access wireframes from the links below
 
 - [Home](https://wireframe.cc/8a3TTu)
-- [Gallery](https://wireframe.cc/2hAhTz) Became the About Us page
+- [Gallery](https://wireframe.cc/2hAhTz) - Became the About Us page
 - [What we offer](https://wireframe.cc/CQMoWn)
-- [Contact Us](https://wireframe.cc/ljCIyF) Basic structure used for Sign Up Page
+- [Contact Us](https://wireframe.cc/ljCIyF) - Basic structure used for Sign Up Page
 
 ## UX
 
 ## User Stories
+
+#### Potential Customer
+
+As a potential customer to Resilience Gym I want to know:
+- The Background/History of the gym
+- What the gym looks like
+- What the gym has to offer
+- The gym opening times
+- The location of the gym
+
+
+
+#### Current Member
+
+As a current memember of the gym I want to:
+- Access my account
+- Book personal training sessions
+- Download Programmes
+- Check class times
 
 ## Features
 
@@ -35,8 +54,26 @@ Access wireframes.cc wireframes from the links below
 
 ## Issues and Bugs
 
-## Scalability
+## Features
+
+#### Existing Features
+
+#### Features to add
 
 ## Technologies
+
+#### Languages Used
+- HTML
+- CSS
+
+#### Frameworks Used
+- Bootstrap
+
+#### Tools Used
+- wireframes.cc: used to create wireframes
+- fontawesome
+- Google Maps: embedded into homepage to provide location.
+- Gitpod: used to create the website.
+- 
 
 ## Acknowledgements
