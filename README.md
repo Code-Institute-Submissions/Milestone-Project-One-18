@@ -14,6 +14,8 @@ The website is split into 5 main pages:
 
 ## Deployment
 
+The Resilience Website has been deployed to [the authors github page](https://github.com/ShaunWard/Milestone-Project-One)
+
 ## Wireframes
 
 ## UX
