@@ -18,6 +18,13 @@ The Resilience Website has been deployed to [the authors github page](https://gi
 
 ## Wireframes
 
+Access wireframes.cc wireframes from the links below
+
+- [Home](https://wireframe.cc/8a3TTu)
+- [Gallery](https://wireframe.cc/2hAhTz) Became the About Us page
+- [What we offer](https://wireframe.cc/CQMoWn)
+- [Contact Us](https://wireframe.cc/ljCIyF) Basic structure used for Sign Up Page
+
 ## UX
 
 ## User Stories
