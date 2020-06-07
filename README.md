@@ -70,9 +70,9 @@ As a current memember of the gym I want to:
 - Bootstrap
 
 #### Tools Used
-- wireframes.cc: used to create wireframes
-- fontawesome
-- Google Maps: embedded into homepage to provide location.
+- [wireframes.cc](https://wireframe.cc/): used to create wireframes
+- [fontawesome](https://fontawesome.com/icons?d=gallery)
+- [Google Maps](https://www.google.com/maps): embedded into homepage to provide location.
 - Gitpod: used to create the website.
 - 
 
