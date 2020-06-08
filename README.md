@@ -1,6 +1,5 @@
 # RESILIENCE WEBSITE
 ## Description
-
 This is a fictional gym created for my first Milestone Project.
 
 The purpose of this website is to attract and inform potential customers of the services on offer at Resilience Gym.
@@ -14,11 +13,9 @@ The website is split into 5 main pages:
 - Sign Up: A Sign Up page to create an account and join the gym.
 
 ## Deployment
-
 The Resilience Website has been deployed to [the authors github page](https://github.com/ShaunWard/Milestone-Project-One)
 
 ## Wireframes
-
 Access wireframes from the links below
 
 - [Home](https://wireframe.cc/8a3TTu)
@@ -33,7 +30,6 @@ Access wireframes from the links below
 ## User Stories
 
 #### Potential Customer
-
 As a potential customer to Resilience Gym I want to know:
 - The Background/History of the gym
 - What the gym looks like
@@ -42,7 +38,6 @@ As a potential customer to Resilience Gym I want to know:
 - The location of the gym
 
 #### Current Member
-
 As a current memember of the gym I want to:
 - Book personal training sessions
 - Download Programmes
@@ -50,21 +45,25 @@ As a current memember of the gym I want to:
 
 ## Features
 
+#### Existing Features
 There are various features on the site:
 
 - Carousel - Image carousel added using bootstrap
 - Gallery - An image gallery added from startbootstrap.com
 - Flipboxes - Taken from W3schools flipboxes are used to put related information on the back of an image/gym offering.
 
-## Testing
-
-## Issues and Bugs
-
-## Features
-
-#### Existing Features
-
 #### Features to add
+Features to add in future development of the website:
+
+- [Stripe](https://stripe.com/gb) connectivity to take payments for memberships etc
+
+## Testing
+This site was tested using various resources such as:
+
+- [Am I Responsive](http://ami.responsivedesign.is/) was used to test the site on various screen sizes to ensure the information could be viewed correctly
+- [HTML Validator](https://validator.w3.org/) used to validate HTML
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) used to validate CSS
+- [Pingdom](https://tools.pingdom.com/#5ca554057c800000) used to test speed of website and improve loading times
 
 ## Technologies
 
