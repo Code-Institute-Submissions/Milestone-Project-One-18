@@ -26,7 +26,9 @@ Access wireframes from the links below
 - [What we offer](https://wireframe.cc/CQMoWn)
 - [Contact Us](https://wireframe.cc/ljCIyF) - Basic structure used for Sign Up Page
 
-## UX
+## User Experience (UX)
+
+![Responsive Design Image](
 
 ## User Stories
 
@@ -38,8 +40,6 @@ As a potential customer to Resilience Gym I want to know:
 - What the gym has to offer
 - The gym opening times
 - The location of the gym
-
-
 
 #### Current Member
 
