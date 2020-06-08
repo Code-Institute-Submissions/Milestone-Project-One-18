@@ -75,11 +75,10 @@ This site was tested using various resources such as:
 - Bootstrap
 
 #### Tools Used
-- [wireframes.cc](https://wireframe.cc/): used to create wireframes
-- [fontawesome](https://fontawesome.com/icons?d=gallery)
+- [wireframes.cc](https://wireframe.cc/): was used to create wireframes
+- [fontawesome](https://fontawesome.com/icons?d=gallery): icons were used for social media links
 - [Google Maps](https://www.google.com/maps): embedded into homepage to provide location.
 - Gitpod: used to create the website.
-- [JPEG mini](https://www.jpegmini.com/): used to conpress images
-- [Responsive Design Testing](http://ami.responsivedesign.is/): used to test website on different screen sizes along with google chrome tools
+- [JPEG mini](https://www.jpegmini.com/): was used to conpress images
 
 ## Acknowledgements
