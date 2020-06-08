@@ -28,7 +28,7 @@ Access wireframes from the links below
 
 ## User Experience (UX)
 
-![Responsive Design Image](
+![Responsive Design Image](https://github.com/ShaunWard/Milestone-Project-One/blob/master/images/responsive-design-image.png?raw=true)
 
 ## User Stories
 
