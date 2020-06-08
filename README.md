@@ -50,6 +50,12 @@ As a current memember of the gym I want to:
 
 ## Features
 
+There are various features on the site:
+
+- Carousel - Image carousel added using bootstrap
+- Gallery - An image gallery added from startbootstrap.com
+- Flipboxes - Taken from W3schools flipboxes are used to put related information on the back of an image/gym offering.
+
 ## Testing
 
 ## Issues and Bugs
