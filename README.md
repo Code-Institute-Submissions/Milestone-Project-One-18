@@ -2,6 +2,7 @@
 ## Description
 
 This is a fictional gym created for my first Milestone Project.
+
 The purpose of this website is to attract and inform potential customers of the services on offer at Resilience Gym.
 
 The website is split into 5 main pages:
