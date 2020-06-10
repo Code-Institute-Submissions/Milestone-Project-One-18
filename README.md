@@ -1,4 +1,5 @@
-# RESILIENCE WEBSITE
+![Resilience Logo](https://github.com/ShaunWard/Milestone-Project-One/blob/master/images/Double%20Resilience.png?raw=true)
+# RESILIENCE GYM WEBSITE
 ## Description
 This is a fictional gym created for my first Milestone Project.
 
