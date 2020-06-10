@@ -70,8 +70,6 @@ This site was tested using various resources such as:
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) used to validate CSS
 - [Pingdom](https://tools.pingdom.com/#5ca554057c800000) used to test speed of website and improve loading times
 
-## Issues and Bugs
-
 ## Scalability
 - Adding a members area that allows you to view your membership, upcoming classes or programmes you have/have completed would be useful for current members.
 - [Stripe](https://stripe.com/gb) connectivity would be put in place to take payments for memberships or individual class.
