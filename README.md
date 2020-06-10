@@ -27,6 +27,14 @@ Access wireframes from the links below
 
 ![Responsive Design Image](https://github.com/ShaunWard/Milestone-Project-One/blob/master/images/responsive-design-image.png?raw=true)
 
+This site was created to present to potential customers what is available at Resilience Gym.
+
+The colour scheme was used to clearly break up areas of the page from the navigation, to the page content and images, to the details in the footer. The colours chosen, such as red and black, were used to help create a powerful feeling within the viewer to make them feel empowered and want to make a change and get fit.
+
+The page layout was designed to suit any screen size. The navigation bar will collapse into a drop down menu for smaller screens. Muliple images will arrange themselves from horizontal to vertical, as will the footer, all of which will help with a change in screen size.
+
+Features such as the image carousel and flipboxes were used to make the page less static and to make the user feel more engaged in the experience of using the site. They also provide a useful way of presenting the images and information on classes and programmes.
+
 ## User Stories
 
 #### Potential Customer
@@ -51,7 +59,7 @@ There are various features on the site:
 
 - Carousel - Image carousel added using bootstrap
 - Gallery - An image gallery added from startbootstrap.com
-- Flipboxes - Taken from W3schools flipboxes are used to put related information on the back of an image/gym offering. 
+- Flipboxes - Taken from W3schools, flipboxes have been used to put related information on the back of an image/gym offering. 
 
 ## Testing
 This site was tested using various resources such as:
@@ -85,5 +93,8 @@ This site was tested using various resources such as:
 - [Gitpod](https://www.gitpod.io/): used to create the website.
 - [JPEG mini](https://www.jpegmini.com/): was used to conpress images
 - [Pingdom](https://tools.pingdom.com/#5ca554057c800000) used to test speed of website
+- [Google](https://www.google.co.uk/) was used to find unlicenced images for use on the site
 
 ## Acknowledgements
+
+I'd like to acknowledge my mentor, Felipe Souza Alarcon, for his support throughout this project.
