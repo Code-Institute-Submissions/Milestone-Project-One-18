@@ -34,6 +34,7 @@ The colour scheme was used to clearly break up areas of the page from the naviga
 The page layout was designed to suit any screen size. The navigation bar will collapse into a drop down menu for smaller screens. Muliple images will arrange themselves from horizontal to vertical, as will the footer, all of which will help with a change in screen size.
 
 Features such as the image carousel and flipboxes were used to make the page less static and to make the user feel more engaged in the experience of using the site. They also provide a useful way of presenting the images and information on classes and programmes.
+![flipbox image](https://github.com/ShaunWard/Milestone-Project-One/blob/master/images/Flipbox-small.png?raw=true)
 
 ## User Stories
 
