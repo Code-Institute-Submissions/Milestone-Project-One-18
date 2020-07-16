@@ -57,10 +57,16 @@ Resilience achieves this by:
 
 
 #### Current Member
-As a current memember of the gym I want to:
-- Book personal training sessions
-- Download Programmes
-- Check class times
+
+- As a member of the gym, I want to be able to easily book personal training sessions with my trainer.
+- As a member of the gym, I want to be able to easily get another workout programme from the site to change up my training.
+- As a member of the gym, I want to be able to quickly check class times
+
+Resilience achieves this by:
+
+- Allowing our staff to be easily contactable through the form on the Contact Us page, specifiying what information they require.
+- Providing a selection of downloadable workout plans on the What We Offer Page under the workout plans section, and changes these workout plans periodically.
+- Providing a list of classes with times on the What We Offer Page under the classes section.
 
 ## Features
 There are various features on the site:
