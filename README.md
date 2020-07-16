@@ -75,7 +75,12 @@ There are various features on the site:
 - Gallery - An image gallery added from startbootstrap.com
 - Flipboxes - Taken from W3schools, flipboxes have been used to put related information on the back of an image/gym offering. 
 
+Features - sections, sign up page, classes etc not gallery
+
 ## Testing
+They could find the feature within X clicks
+This is testing user stories
+
 This site was tested using various resources such as:
 
 - [Am I Responsive](http://ami.responsivedesign.is/) was used to test the site on various screen sizes to ensure the information could be viewed correctly
