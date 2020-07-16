@@ -40,15 +40,21 @@ Features such as the image carousel and flipboxes were used to make the page les
 ## User Stories
 
 #### Potential Customer
-As a potential customer to Resilience Gym I want to know:
-- The Background/History of the gym
-- What the gym looks like
-  - Many images and information was added to help explain history and show off the gym
-- What the gym has to offer
-  - Information on this has been put on the What We Offer page
-- The gym opening times
-- The location of the gym
-  - Both the address and the open times have been placed in the footer to ensure they show on every page
+
+- As a potential customer, I want to know about the background and history of the gym to understand where it has come from.
+- As a potential customer, I want to see images of what the gym looks like before I decide to go.
+- As a potential customer, I want to know what the gym has to offer to me, such as do they offer more than just gym access.
+- As a potential customer, I want to know what the open hours of the gym are.
+- As a potential customer, I want to know the location of the gym including an address and map.
+
+Resilience achieves this by:
+
+- Providing an About Us page to tell potential customers about the family owned gym and how they built it up from the beginning.
+- Showing potential customers images of the gym throughout the site as well as clients workout out in the gym. The largest section of images being on the about us page.
+- Providing a What We Offer Page specifically to inform customers of all the things available to them such as classes, personal training and workout programs.
+- Showing the open hours clearly in the footer on every page and providing class times during the open hours on the What We Offer Page.
+- Providing a large map in the Where To Find Us section of the Home page. Also included is a full address in the footer of every page.
+
 
 #### Current Member
 As a current memember of the gym I want to:
