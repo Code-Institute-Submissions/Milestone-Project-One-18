@@ -79,6 +79,11 @@ There are various features on the site:
 - Forms - The Contact Page has a form to fill in to request more specific information around a query, containing radio buttons for choices of how to contact them. The Sign up page contains a form to allow the creation of a profile on the site.
 - A Responsive design allows use on all sizes from desktops to phones.
 
+### Features Left to Implement
+
+- Adding a members area that allows you to view your membership, upcoming classes or programmes you have/have completed would be useful for current members.
+- [Stripe](https://stripe.com/gb) connectivity would be put in place to take payments for memberships or individual class.
+
 ## Testing
 They could find the feature within X clicks
 This is testing user stories
@@ -89,10 +94,6 @@ This site was tested using various resources such as:
 - [HTML Validator](https://validator.w3.org/) used to validate HTML
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) used to validate CSS
 - [Pingdom](https://tools.pingdom.com/#5ca554057c800000) used to test speed of website and improve loading times
-
-## Scalability
-- Adding a members area that allows you to view your membership, upcoming classes or programmes you have/have completed would be useful for current members.
-- [Stripe](https://stripe.com/gb) connectivity would be put in place to take payments for memberships or individual class.
 
 ## Technologies
 
