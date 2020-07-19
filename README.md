@@ -98,19 +98,27 @@ In addition, you should mention in this section how your project looks and works
 
 The various User Stories and Features of the website were tested manually as shown below.
 
-- Viewing background information and images of the gym
+1. Viewing background information and images of the gym
     1. Go to the "About Us" page
     2. Scrolling up and down the page will give information around the history of the gym as well as images being available.
     
-- I want to know what the gym has to offer
+2. I want to know what the gym has to offer
     On a desktop/laptop using the mouse
     1. Go to the "What We Offer Page" page.
     2. Hover over over each image and view the box flipping round to reveal information about the subject/image.
+    3. While hovering over the "Workout Plans" click on the links to download workout plans (nothing to download currently)
     
     On a mobile device such as a phone or tablet
     1. Click on the burger icon in the top right of the screen.
     2. Go to the "What We Offer Page" page in the drop down.
     3. Click on each flip box to reveal information about the subject/image.
+    4. Click on the links to download workout plans (nothing to download currently)
+    
+3. Finding out the opening hours or location of the gym
+    1. On the "Home" page scrolled down the page to find a map of the location of the gym.
+    2. Scrolled further down to find the footer containing an address and opening hours of the gym.
+    
+4. 
 
 This site was tested using various resources such as:
 
