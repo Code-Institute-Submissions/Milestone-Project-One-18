@@ -72,14 +72,12 @@ Resilience achieves this by:
 ## Features
 There are various features on the site:
 
-- Navbar for ease of navigation around the site on any screen size.
-- Footer containing social media links to allow easy access to the gyms social media sites to share stories and find more information.
-- Flip boxes on What we offer page, this gives the page a clean look but also allows information relating to the subject to be contained behind the image.
-- Contact Page with a form to fill in to request more specific information around a query, containing radio buttons for choices of how to contact them
-- Sign up page containing a form to allow the creation of a profile on the site
-- Responsive design to allow use on all sizes from desktops to phones
-
-Features - sections, sign up page, classes etc not gallery
+- A Navbar for ease of navigation around the site on any screen size. Smaller screen sizes use the 'burger' icon as a drop down for the navigation bar.
+- The Footer contains social media links to allow easy access to the gyms social media sites to share stories and find more information.
+- Flip boxes used on the What we offer page, this gives the page a clean look but also allows information relating to the subject to be contained behind the image.
+- The Contact Page has a form to fill in to request more specific information around a query, containing radio buttons for choices of how to contact them.
+- The Sign up page contains a form to allow the creation of a profile on the site.
+- A Responsive design allows use on all sizes from desktops to phones.
 
 ## Testing
 They could find the feature within X clicks
