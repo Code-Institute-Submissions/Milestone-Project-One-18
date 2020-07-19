@@ -32,7 +32,7 @@ This site was created to present to potential customers what is available at Res
 
 The colour scheme was used to clearly break up areas of the page from the navigation, to the page content and images, to the details in the footer. The colours chosen, such as red and black, were used to help create a powerful feeling within the viewer to make them feel empowered and want to make a change and get fit.
 
-The page layout was designed to suit any screen size. The navigation bar will collapse into a drop down menu for smaller screens. Muliple images will arrange themselves from horizontal to vertical, as will the footer, all of which will help with a change in screen size.
+The page layout was designed to suit any screen size. The navigation bar will collapse into a drop down menu for smaller screens. Multiple images will arrange themselves from horizontal to vertical, as will the footer, all of which will help with a change in screen size.
 
 Features such as the image carousel and flipboxes were used to make the page less static and to make the user feel more engaged in the experience of using the site. They also provide a useful way of presenting the images and information on classes and programmes.
 
@@ -65,7 +65,7 @@ Resilience achieves this by:
 
 Resilience achieves this by:
 
-- Allowing our staff to be easily contactable through the form on the Contact Us page, specifiying what information they require.
+- Allowing our staff to be easily contactable through the form on the Contact Us page, specifying what information they require.
 - Providing a selection of downloadable workout plans on the What We Offer Page under the workout plans section, and changes these workout plans periodically.
 - Providing a list of classes with times on the What We Offer Page under the classes section.
 
@@ -95,7 +95,7 @@ The various User Stories and Features of the website were tested manually as sho
 2. I want to know what the gym has to offer and download workout plans:
     On a desktop/laptop using the mouse:
     1. Go to the "What We Offer Page" page.
-    2. Hover over over each image and view the box flipping round to reveal information about the subject/image.
+    2. Hover over each image and view the box flipping round to reveal information about the subject/image.
     3. While hovering over the "Workout Plans" click on the links to download workout plans (nothing to download currently)
     
     On a mobile device such as a phone or tablet:
@@ -145,9 +145,9 @@ This site was tested using various resources such as:
 - [Google Maps](https://www.google.com/maps): embedded into homepage to provide location.
 - [Google Fonts](https://fonts.google.com/?selection.family=Lexend+Tera#standard-styles)
 - [Gitpod](https://www.gitpod.io/): used to create the website.
-- [JPEG mini](https://www.jpegmini.com/): was used to conpress images
+- [JPEG mini](https://www.jpegmini.com/): was used to compress images
 - [Pingdom](https://tools.pingdom.com/#5ca554057c800000) used to test speed of website
-- [Google](https://www.google.co.uk/) was used to find unlicenced images for use on the site
+- [Google](https://www.google.co.uk/) was used to find unlicensed images for use on the site
 
 ## Acknowledgements
 
