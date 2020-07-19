@@ -98,27 +98,39 @@ In addition, you should mention in this section how your project looks and works
 
 The various User Stories and Features of the website were tested manually as shown below.
 
-1. Viewing background information and images of the gym
+1. Viewing background information and images of the gym:
     1. Go to the "About Us" page
     2. Scrolling up and down the page will give information around the history of the gym as well as images being available.
     
-2. I want to know what the gym has to offer
-    On a desktop/laptop using the mouse
+2. I want to know what the gym has to offer and download workout plans:
+    On a desktop/laptop using the mouse:
     1. Go to the "What We Offer Page" page.
     2. Hover over over each image and view the box flipping round to reveal information about the subject/image.
     3. While hovering over the "Workout Plans" click on the links to download workout plans (nothing to download currently)
     
-    On a mobile device such as a phone or tablet
+    On a mobile device such as a phone or tablet:
     1. Click on the burger icon in the top right of the screen.
     2. Go to the "What We Offer Page" page in the drop down.
     3. Click on each flip box to reveal information about the subject/image.
     4. Click on the links to download workout plans (nothing to download currently)
     
-3. Finding out the opening hours or location of the gym
+3. Finding out the opening hours or location of the gym:
     1. On the "Home" page scrolled down the page to find a map of the location of the gym.
     2. Scrolled further down to find the footer containing an address and opening hours of the gym.
     
-4. 
+4. Using the Contact Us Form:
+    1. Go to the "Contact Us" page.
+    2. Tried to submit the empty form and verified that an error "Please fill in this field" appears.
+    3. Tried to submit the form with an invalid email address, error message asking for an email address with '@' symbol appears.
+    4. Tried to submit the form with all inputs valid,
+    
+5. Using the Sign Up Page:
+    1. Go to the "Sign Up Now!" page.
+    2. Tried to submit the empty form and verified that an error "Please fill in this field" appears.
+    3. Tried to submit the form with an invalid email address, error message asking for an email address with '@' symbol appears.
+    4. Tried to submit without a phone number, verified that an error "Please fill in this field" appears.
+    5. Tried to submit without a password, verified that an error "Please fill in this field" appears.
+    6. Tried to submit the form with all inputs valid,
 
 This site was tested using various resources such as:
 
