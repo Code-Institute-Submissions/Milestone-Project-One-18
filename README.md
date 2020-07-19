@@ -96,7 +96,21 @@ For any scenarios that have not been automated, test the user stories manually a
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
+The various User Stories and Features of the website were tested manually as shown below.
 
+- Viewing background information and images of the gym
+    1. Go to the "About Us" page
+    2. Scrolling up and down the page will give information around the history of the gym as well as images being available.
+    
+- I want to know what the gym has to offer
+    On a desktop/laptop using the mouse
+    1. Go to the "What We Offer Page" page.
+    2. Hover over over each image and view the box flipping round to reveal information about the subject/image.
+    
+    On a mobile device such as a phone or tablet
+    1. Click on the burger icon in the top right of the screen.
+    2. Go to the "What We Offer Page" page in the drop down.
+    3. Click on each flip box to reveal information about the subject/image.
 
 This site was tested using various resources such as:
 
