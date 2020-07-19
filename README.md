@@ -85,8 +85,18 @@ There are various features on the site:
 - [Stripe](https://stripe.com/gb) connectivity would be put in place to take payments for memberships or individual class.
 
 ## Testing
-They could find the feature within X clicks
-This is testing user stories
+
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+1. Contact form:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+
 
 This site was tested using various resources such as:
 
