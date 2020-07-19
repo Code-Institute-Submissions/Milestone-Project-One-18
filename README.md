@@ -35,6 +35,7 @@ The colour scheme was used to clearly break up areas of the page from the naviga
 The page layout was designed to suit any screen size. The navigation bar will collapse into a drop down menu for smaller screens. Muliple images will arrange themselves from horizontal to vertical, as will the footer, all of which will help with a change in screen size.
 
 Features such as the image carousel and flipboxes were used to make the page less static and to make the user feel more engaged in the experience of using the site. They also provide a useful way of presenting the images and information on classes and programmes.
+
 ![flipbox image](https://github.com/ShaunWard/Milestone-Project-One/blob/master/images/Flipbox-small.png?raw=true)
 
 ## User Stories
@@ -71,9 +72,12 @@ Resilience achieves this by:
 ## Features
 There are various features on the site:
 
-- Carousel - Image carousel added using bootstrap
-- Gallery - An image gallery added from startbootstrap.com
-- Flipboxes - Taken from W3schools, flipboxes have been used to put related information on the back of an image/gym offering. 
+- Navbar for ease of navigation around the site on any screen size.
+- Footer containing social media links to allow easy access to the gyms social media sites to share stories and find more information.
+- Flip boxes on What we offer page, this gives the page a clean look but also allows information relating to the subject to be contained behind the image.
+- Contact Page with a form to fill in to request more specific information around a query, containing radio buttons for choices of how to contact them
+- Sign up page containing a form to allow the creation of a profile on the site
+- Responsive design to allow use on all sizes from desktops to phones
 
 Features - sections, sign up page, classes etc not gallery
 
