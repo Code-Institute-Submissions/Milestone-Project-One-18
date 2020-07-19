@@ -122,7 +122,7 @@ The various User Stories and Features of the website were tested manually as sho
     1. Go to the "Contact Us" page.
     2. Tried to submit the empty form and verified that an error "Please fill in this field" appears.
     3. Tried to submit the form with an invalid email address, error message asking for an email address with '@' symbol appears.
-    4. Tried to submit the form with all inputs valid,
+    4. Tried to submit the form with all inputs valid, verified in this scenario that the code institute success page appears.
     
 5. Using the Sign Up Page:
     1. Go to the "Sign Up Now!" page.
@@ -130,7 +130,7 @@ The various User Stories and Features of the website were tested manually as sho
     3. Tried to submit the form with an invalid email address, error message asking for an email address with '@' symbol appears.
     4. Tried to submit without a phone number, verified that an error "Please fill in this field" appears.
     5. Tried to submit without a password, verified that an error "Please fill in this field" appears.
-    6. Tried to submit the form with all inputs valid,
+    6. Tried to submit the form with all inputs valid, verified in this scenario that the code institute success page appears.
 
 This site was tested using various resources such as:
 
